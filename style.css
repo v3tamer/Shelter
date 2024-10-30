@@ -17,11 +17,9 @@ width: 250px;
 border: 3px solid black;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    grid-column: span 2;
-    border: 1px solid black;
+.footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 99%;
 }
